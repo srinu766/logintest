@@ -156,16 +156,34 @@ const OrganizationStructure = () => {
 
         const dummyData = [
             { id: 96, parentId: "", name: "Seshadri", lastName: "Sekhar Neti", position: "Director", email: "nethisekhar@gmail.com", image: "" },
-            { id: 3, parentId: 96, name: "Gampa", lastName: "Sudhakar", position: "Business Head", email: "Mithra.Mktg@Gmail.Com", image: "" },
-            { id: 1, parentId: 3, name: "Majji", lastName: "Suresh", position: "Service Manager", email: "Service.Mithra@Gmail.Com", image: "" },
-            { id: 11, parentId: 1, name: "Gandhavalla", lastName: "Srinivasulu", position: "Senior Service Engineer", email: "Gandhavalla1981@Gmail.Com", image: "" },
-            { id: 14, parentId: 1, name: "Gubbala", lastName: "Syamalarao", position: "Senior Service Engineer", email: "Syamgubbala99@Gmail.Com", image: "" },
-            { id: 18, parentId: 1, name: "Kosuru", lastName: "Saitejaswi", position: "Store Assistant", email: "Saitejaswi.Kosuru1994@Gmail.Com", image: "" },
-            { id: 24, parentId: 1, name: "Velicharla", lastName: "Naresh", position: "Senior Service Engineer", email: "Velicharlanaresh143@Gmail.Com", image: "" },
-            { id: 30, parentId: 1, name: "Kalapakuri", lastName: "Vamsi Krishna", position: "Senior Service Engineer", email: "Kalapakurivamssy@Gmail.Com", image: "" },
-            { id: 2, parentId: 3, name: "Gulimi", lastName: "Apparao", position: "Assistant Service Manager", email: "Mithra.Vizag@Gmail.Com", image: "" },
-            { id: 8, parentId: 2, name: "Pothina", lastName: "Santosh Kumar", position: "Senior Service Engineer", email: "Mithra.Vizag@Gmail.Com", image: "" },
-            //          // Add other data here...
+                    { id: 3, parentId: 96, name: "Gampa", lastName: "Sudhakar", position: "Business Head", email: "Mithra.Mktg@Gmail.Com", image: "" },
+                    { id: 1, parentId: 3, name: "Majji", lastName: "Suresh", position: "Service Manager", email: "Service.Mithra@Gmail.Com", image: "" },
+                    { id: 11, parentId: 1, name: "Gandhavalla", lastName: "Srinivasulu", position: "Senior Service Engineer", email: "Gandhavalla1981@Gmail.Com", image: "" },
+                    { id: 14, parentId: 1, name: "Gubbala", lastName: "Syamalarao", position: "Senior Service Engineer", email: "Syamgubbala99@Gmail.Com", image: "" },
+                    { id: 18, parentId: 1, name: "Kosuru", lastName: "Saitejaswi", position: "Store Assistant", email: "Saitejaswi.Kosuru1994@Gmail.Com", image: "" },
+                    { id: 24, parentId: 1, name: "Velicharla", lastName: "Naresh", position: "Senior Service Engineer", email: "Velicharlanaresh143@Gmail.Com", image: "" },
+                    { id: 30, parentId: 1, name: "Kalapakuri", lastName: "Vamsi Krishna", position: "Senior Service Engineer", email: "Kalapakurivamssy@Gmail.Com", image: "" },
+                    { id: 2, parentId: 3, name: "Gulimi", lastName: "Apparao", position: "Assistant Service Manager", email: "Mithra.Vizag@Gmail.Com", image: "" },
+                    { id: 8, parentId: 2, name: "Pothina", lastName: "Santosh Kumar", position: "Senior Service Engineer", email: "Mithra.Vizag@Gmail.Com", image: "" },
+                    { id: 12, parentId: 2, name: "Dadi", lastName: "Srinu", position: "Senior Service Engineer", email: "Dadisrinu006@Gmail.Com", image: "" },
+                    { id: 15, parentId: 2, name: "Maradana", lastName: "Jogi Naidu", position: "Senior Service Engineer", email: "Mithra.Vizag@Gmail.Com", image: "" },
+                    { id: 16, parentId: 2, name: "Pachiripalli", lastName: "Ravi", position: "Senior Service Engineer", email: "Raviravi3273@Gmail.Com", image: "" },
+                    { id: 4, parentId: 3, name: "Polaki", lastName: "Shankar Rao", position: "Sales Manager", email: "Pshankar.Sales@Gmail.Com", image: "" },
+                    { id: 5, parentId: 3, name: "Shaik", lastName: "Uzmi", position: "Store Assistant", email: "Parts.Mithra@Gmail.Com", image: "" },
+                    { id: 6, parentId: 3, name: "Butta", lastName: "Shyamala", position: "Customer Support Officer", email: "Mithra.Mktg@Gmail.Com", image: "" },
+                    { id: 9, parentId: 3, name: "Mohammed", lastName: "Abid", position: "Store Support Staff", email: "mabed0239@gmail.com", image: "" },
+                    { id: 13, parentId: 3, name: "Bhagavathula", lastName: "Naga Srinivasarao", position: "Senior Sales Executive", email: "bnsrao1973@gmail.com", image: "" },
+                    { id: 21, parentId: 3, name: "Chappa", lastName: "Manibabu", position: "Sales Manager", email: "Manibabu80@Gmail.Com", image: "" },
+                    { id: 23, parentId: 3, name: "Yanamala", lastName: "Veera Mohan", position: "Senior Service Engineer", email: "Service.Mithra@Gmail.Com", image: "" },
+                    { id: 29, parentId: 3, name: "Shaik", lastName: "Sai Baba", position: "Assistant Service Manager", email: "Service.Mithra@Gmail.Com", image: "" },
+                    { id: 7, parentId: 29, name: "Kanike", lastName: "Nagesh", position: "Senior Service Engineer", email: "Kanikenagesh123@Gmail.Com", image: "" },
+                    { id: 10, parentId: 29, name: "Samali", lastName: "Ambadas", position: "Senior Service Engineer", email: "sandydas070@gmail.com", image: "" },
+                    { id: 17, parentId: 29, name: "Jameel", lastName: "Mohummed", position: "Senior Service Engineer", email: "Jameeljakeer786@Gmail.Com", image: "" },
+                    { id: 19, parentId: 29, name: "Chetanvarma", lastName: "Sakineti", position: "Senior Service Engineer", email: "Sakinetichetanvarma@gmail.com", image: "" },
+                    { id: 25, parentId: 29, name: "Jangili", lastName: "Anvesh", position: "Senior Service Engineer", email: "Navayuga9494@Gmail.Com", image: "" },
+                    { id: 27, parentId: 29, name: "Valiveti", lastName: "Ramesh", position: "Senior Service Engineer", email: "ramesh.v255@gmail.com", image: "" },
+                    { id: 28, parentId: 29, name: "Jaheer", lastName: "Pasha", position: "Senior Service Engineer", email: "Jaheerpasha2347@Gmail.Com", image: "" }
+              
         ];
 
         const data = dummyData.map(d => ({
@@ -243,7 +261,7 @@ const OrganizationStructure = () => {
             {isLoading ? (
                 <div className="d-flex justify-content-center mt-5 align-content-center">
                     <div className="spinner-border" role="status">
-                        <span className="visually-hidden">Loading...Loading...Loading</span>
+                        <span className="visually-hidden">Loading...</span>
                     </div>
                 </div>
             ) : (
